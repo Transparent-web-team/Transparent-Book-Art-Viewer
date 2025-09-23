@@ -6,8 +6,9 @@ A Java-based application for Window users to view book & art in a beautiful way.
 ## Images
 ## Main features
 Class Diagram:
+
 -History
-[https://github.com/Transparent-web-team/Transparent-Book-Art-Viewer/blob/main/ReadingHistory%20UML%20Diagram.png?raw=true](url)
+<img width="231" height="141" alt="ReadingHistory UML Diagram" src="https://github.com/user-attachments/assets/5dba252d-9ebf-40e3-999e-9bdfd6a5c8f7" />
 Lịch sử đọc (Reading History): Theo dõi và ghi lại hoạt động của người dùng với nội dung, thời lượng xem/đọc, và tiến độ đọc hiện tại đối với truyện dài. Tính năng này giúp người dùng dễ dàng tiếp tục từ vị trí đã dừng và xem lại những nội dung đã tương tác.
 Phân tích:
 - Nội dung truyện: contentID

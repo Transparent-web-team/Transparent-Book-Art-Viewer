@@ -14,7 +14,7 @@ Phân tích:<br>
 - Thời lượng xem/đọc: duration
 - Cập nhật thời lượng xem/đọc: addDuration()
 - Tiến độ đọc: progress
-- Cập nhập tiến độ đọc: updateProgress()
+- Cập nhập tiến độ đọc: updateProgress()<br>
 -Comment:
 <img width="402" height="292" alt="image" src="https://github.com/user-attachments/assets/c4692385-d269-4601-87eb-08e449756767" />
 Comment (Bình luận): Hệ thống bình luận cho phép người dùng thêm, xóa ghi chú cá nhân, suy nghĩ, hoặc đánh giá về từng nội dung.

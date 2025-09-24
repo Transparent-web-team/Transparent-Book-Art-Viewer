@@ -17,7 +17,7 @@ Phân tích:<br>
 - Cập nhập tiến độ đọc: updateProgress()<br>
 
 2. Favorite:<br>
-<img width="271" height="164" alt="Favorite" src="https://github.com/user-attachments/assets/1fe7a88c-118a-4734-ad05-cd0e29bc482e" /><br>
+<img width="271" height="154" alt="Favorite1" src="https://github.com/user-attachments/assets/442a3706-e8e5-4f98-94d1-8849f5d7b7ec" /><br>
 Add to Favorite (Thêm vào yêu thích): Cho phép người dùng đánh dấu những nội dung ưa thích để truy cập nhanh chóng sau này. Trạng thái yêu thích có thể được bật/tắt một cách linh hoạt.<br>
 Phân tích:<br>
 - Mã nội dung: contentID<br>

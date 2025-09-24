@@ -18,13 +18,12 @@ Phân tích:<br>
 
 2. Info:<br>
 <img width="306" height="195" alt="Ảnh màn hình 2025-09-24 lúc 23 15 57" src="https://github.com/user-attachments/assets/5448f960-32bb-453e-9fad-655b2e9a7312" /><br>
-Lịch sử đọc (Reading History): Theo dõi và ghi lại hoạt động của người dùng với nội dung, thời lượng xem/đọc, và tiến độ đọc hiện tại đối với truyện dài. Tính năng này giúp người dùng dễ dàng tiếp tục từ vị trí đã dừng và xem lại những nội dung đã tương tác.<br>
+Info (Thông tin chi tiết): Hiển thị metadata đầy đủ về mỗi item nội dung bao gồm thông tin file như kích thước, định dạng, ngày tạo, tag truyện.<br>
 Phân tích:<br>
-- Mã nội dung: contentID
-- Thời lượng xem/đọc: duration
-- Cập nhật thời lượng xem/đọc: addDuration()
-- Tiến độ đọc: progress
-- Cập nhập tiến độ đọc: updateProgress()<br>
+- Kích thước file: size
+- Định dạng: format
+- Ngày tạo: dayCreated
+- Tag truyện: tags.<br>
 
 3. Reading History:<br>
 <img width="231" height="141" alt="ReadingHistory UML Diagram" src="https://github.com/user-attachments/assets/5dba252d-9ebf-40e3-999e-9bdfd6a5c8f7" /><br>

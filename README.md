@@ -29,8 +29,7 @@ Phân tích:<br>
 
 
 3. Reading History:<br>
-<img width="268" height="195" alt="Ảnh màn hình 2025-11-20 lúc 01 17 40" src="https://github.com/user-attachments/assets/5e631981-6ab8-4c91-813a-157872b1c33e" />
-<br>
+<img width="268" height="195" alt="Ảnh màn hình 2025-11-20 lúc 01 17 40" src="https://github.com/user-attachments/assets/5e631981-6ab8-4c91-813a-157872b1c33e" /><br>
 Lịch sử đọc (Reading History): Theo dõi và ghi lại hoạt động của người dùng với nội dung, thời lượng xem/đọc, và tiến độ đọc hiện tại đối với truyện dài. Tính năng này giúp người dùng dễ dàng tiếp tục từ vị trí đã dừng và xem lại những nội dung đã tương tác.<br>
 Phân tích:<br>
 - Mã nội dung: contentID

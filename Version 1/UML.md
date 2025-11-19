@@ -47,4 +47,7 @@ Phân tích:<br>
 - Tên truyện: title<br>
 - Đường dẫn nội dung: filePath<br>
 - Trạng thái yêu thích: isFavorited<br>
+- Thêm nội dung vào mục yêu thích: addToFavorites()<br>
+- Xoá nội dung khỏi mục yêu thích removeFromFavorites()<br>
+
 

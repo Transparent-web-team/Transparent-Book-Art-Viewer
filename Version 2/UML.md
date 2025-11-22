@@ -1,5 +1,4 @@
-<img width="462" height="466" alt="Ảnh màn hình 2025-11-23 lúc 02 20 50" src="https://github.com/user-attachments/assets/a4028b7f-564a-4feb-b3d3-acd83b0dd35c" />
-<br>
+<img width="462" height="466" alt="Ảnh màn hình 2025-11-23 lúc 02 20 50" src="https://github.com/user-attachments/assets/a4028b7f-564a-4feb-b3d3-acd83b0dd35c" /><br>
 Phân tích:<br>
 - ContentManager(): khởi tạo các cấu trúc dữ liệu rỗng
 - getAllContents(): getter cho danh sách tài liệu 

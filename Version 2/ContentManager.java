@@ -24,7 +24,7 @@ public class ContentManager {
         return new ArrayList<>(allContents);
     }
   
-    public Content  findContentById(String contentId) {
+    public Content findContentById(String contentId) {
         for (Content c : allContents) {
             if (c.getContentId().equals(contentId)) {
                 return c;

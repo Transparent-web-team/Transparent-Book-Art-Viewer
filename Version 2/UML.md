@@ -14,6 +14,7 @@ Phân tích:<br>
 - Kích thước file: size
 - Định dạng: format
 - Ngày tạo: dateAdded
+
 - Constructor của class Info: Info()<br>
 - Hàm getter cho size: getSize()<br>
 - Hàm setter cho size: setSize()<br>
@@ -32,6 +33,7 @@ Phân tích:<br>
 - Tác giả: author
 - Nội dung: filePath
 - Thông tin chi tiết về file: info
+
 - Constructor của class Content: Content()<br>
 - Hàm getter cho contentId: getContentId()
 - Hàm setter cho contentId: setContentId()
@@ -50,42 +52,38 @@ Lịch sử đọc (Reading History): Theo dõi và ghi lại hoạt động c�
 Phân tích:<br>
 - Mã nội dung: contentID
 - Tiến độ đọc: progress
+
 - Hàm constructor cho class ReadingHistory: ReadingHistory()
 - Hàm getter cho contentId: getContentId()
 - Hàm setter cho contentId: setContentId()
 - Hàm getter cho progress: getProgress()
 - Hàm setter cho progress: setProgress()
 
-4. Favorite:<br>
-<img width="381" height="207" alt="Ảnh màn hình 2025-11-20 lúc 01 14 10" src="https://github.com/user-attachments/assets/c1ffe638-d506-4ff7-8491-5af0f8279095" /><br>
-
-Add to Favorite (Thêm vào yêu thích): Cho phép người dùng đánh dấu những nội dung ưa thích để truy cập nhanh chóng sau này. Trạng thái yêu thích có thể được bật/tắt một cách linh hoạt.<br>
-Phân tích:<br>
-- Mã nội dung: contentID<br>
-- Tên truyện: title<br>
-- Đường dẫn nội dung: filePath<br>
-- Trạng thái yêu thích: isFavorited<br>
-- Thêm nội dung vào mục yêu thích: addToFavorites()<br>
-- Xoá nội dung khỏi mục yêu thích removeFromFavorites()<br>
-
-
-5. ContentManager:<br>
+4. ContentManager:<br>
 <img width="462" height="466" alt="Ảnh màn hình 2025-11-23 lúc 02 20 50" src="https://github.com/user-attachments/assets/a4028b7f-564a-4feb-b3d3-acd83b0dd35c" /><br>
 
 Phân tích:<br>
-- allContents: danh sách tài liệu
-- libraryContents: danh sách tài liệu đã thêm vào thư viện, lưu dưới dạng mã (ID) và tiến độ đọc của nó
-- favorites: danh sách các tài liệu có trạng thái yêu thích
-- nextId: biến sinh ID tự động tăng, bắt đầu từ 1
+- Danh sách toàn bộ nội dung: allContents
+- Danh sách nội dung có trạng thái yêu thích: favorites
+- Tiến độ đọc: readingProgress
+- Biến sinh ID tự tăng: nextId
 
-- ContentManager(): khởi tạo các cấu trúc dữ liệu rỗng
-- getAllContents(): getter cho danh sách tài liệu 
-- addContent(): thêm tài liệu mới vào danh sách tài liệu
-- findContentById(): kiểm tra xem tài liệu trong thư viện còn tồn tại trong danh sách tài liệu không
-- getLibraryContents(): getter cho danh sách tài liệu trong thư viện đọc
-- addToLibrary(): thêm tài liệu vào library 
-- removeFromLibrary(): xoá tài liệu khỏi library 
-- sortByTitle(): sắp xếp theo tiêu đề
-- sortByAuthor(): sắp xếp theo tác giả
-- search(): tìm kiếm theo từ khoá có trong tiêu đề/tác giả
-- toggleFavorite(): bật/tắt trạng thái Favorite
+- Hằng số file chứa dữ liệu nội dung: FILE_CONTENTS
+- Hằng số file chứa dữ liệu yêu thích: FILE_FAVORITES
+- Hằng số file chứa dữ liệu tiến độ: FILE_PROGRESS
+- Hằng số file chứa dữ liệu ID: FILE_ID
+
+- Khởi tạo danh sách và load dữ liệu: ContentManager()
+- Thêm nội dung mới: addContent()
+- Tìm nội dung theo ID: findContentById()
+- Xóa nội dung: removeContent()
+- Lấy danh sách toàn bộ nội dung: getAllContents()
+- Lấy danh sách yêu thích: getFavorites()
+- Kiểm tra nội dung có trạng thái yêu thích không: isFavorite()
+- Bật/tắt trạng thái yêu thích: toggleFavorite()
+- Cập nhật tiến độ đọc: updateProgress()
+- Tìm kiếm theo tiêu đề hoặc tác giả: search()
+- Sắp xếp theo tiêu đề: sortByTitle()
+- Sắp xếp theo tác giả: sortByAuthor()
+- Load dữ liệu từ file: loadData()
+- Lưu dữ liệu ra file: saveData()

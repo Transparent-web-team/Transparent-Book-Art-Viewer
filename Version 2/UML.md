@@ -15,13 +15,13 @@ Phân tích:<br>
 - Định dạng: format
 - Ngày tạo: dateAdded
 
-- Constructor của class Info: Info()<br>
-- Hàm getter cho size: getSize()<br>
-- Hàm setter cho size: setSize()<br>
-- Hàm getter cho format: getFormat()<br>
-- Hàm setter cho format: setFormat()<br>
-- Hàm getter cho dateAdded: getDateAdded()<br>
-- Hàm setter cho dateAdded: setDateAdded()<br>
+- Constructor của class Info: Info()
+- Hàm getter cho size: getSize()
+- Hàm setter cho size: setSize()
+- Hàm getter cho format: getFormat()
+- Hàm setter cho format: setFormat()
+- Hàm getter cho dateAdded: getDateAdded()
+- Hàm setter cho dateAdded: setDateAdded()
 - Hàm chuẩn hoá định dạng cho kích thước file: getSizeFormat()
 
 2. Content:<br>
@@ -34,7 +34,7 @@ Phân tích:<br>
 - Nội dung: filePath
 - Thông tin chi tiết về file: info<br>
 
-- Constructor của class Content: Content()<br>
+- Constructor của class Content: Content()
 - Hàm getter cho contentId: getContentId()
 - Hàm setter cho contentId: setContentId()
 - Hàm getter cho author: getAuthor()

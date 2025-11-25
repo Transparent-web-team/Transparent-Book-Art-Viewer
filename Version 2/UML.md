@@ -49,10 +49,12 @@ Phân tích:<br>
 Lịch sử đọc (Reading History): Theo dõi và ghi lại hoạt động của người dùng với nội dung, thời lượng xem/đọc, và tiến độ đọc hiện tại đối với truyện dài. Tính năng này giúp người dùng dễ dàng tiếp tục từ vị trí đã dừng và xem lại những nội dung đã tương tác.<br>
 Phân tích:<br>
 - Mã nội dung: contentID
-- Thời lượng xem/đọc: duration
-- Cập nhật thời lượng xem/đọc: addDuration()
 - Tiến độ đọc: progress
-- Cập nhập tiến độ đọc: updateProgress()<br>
+- Hàm constructor cho class ReadingHistory: ReadingHistory()
+- Hàm getter cho contentId: getContentId()
+- Hàm setter cho contentId: setContentId()
+- Hàm getter cho progress: getProgress()
+- Hàm setter cho progress: setProgress()
 
 4. Favorite:<br>
 <img width="381" height="207" alt="Ảnh màn hình 2025-11-20 lúc 01 14 10" src="https://github.com/user-attachments/assets/c1ffe638-d506-4ff7-8491-5af0f8279095" /><br>

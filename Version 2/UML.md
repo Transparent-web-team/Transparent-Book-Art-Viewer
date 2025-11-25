@@ -14,6 +14,7 @@ Phân tích:<br>
 - Kích thước file: size
 - Định dạng: format
 - Ngày tạo: dateAdded
+- Constructor của class Info: Info()<br>
 - Hàm getter cho size: getSize()<br>
 - Hàm setter cho size: setSize()<br>
 - Hàm getter cho format: getFormat()<br>
@@ -30,7 +31,18 @@ Phân tích:<br>
 - Tiêu đề: title
 - Tác giả: author
 - Nội dung: filePath
-- Mở file và hiển thị: open()
+- Thông tin chi tiết về file: info
+- Constructor của class Content: Content()<br>
+- Hàm getter cho contentId: getContentId()
+- Hàm setter cho contentId: setContentId()
+- Hàm getter cho author: getAuthor()
+- Hàm setter cho author: setAuthor()
+- Hàm getter cho title: getTitle()
+- Hàm setter cho title: setTitle()
+- Hàm getter cho filePath: getFilePath()
+- Hàm setter cho filePath: setFilePath()
+- Hàm getter cho info: getInfo()
+- Hàm setter cho info: setInfo()
 
 3. Reading History:<br>
 <img width="268" height="195" alt="Ảnh màn hình 2025-11-20 lúc 01 17 40" src="https://github.com/user-attachments/assets/5e631981-6ab8-4c91-813a-157872b1c33e" /><br>

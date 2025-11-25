@@ -6,7 +6,23 @@ A Java-based application for Window users to view book & art in a beautiful way.
 ## Images
 ## Main features
 **Class Diagram:<br>**
-1. Content:<br>
+
+1. Info:<br>
+<img width="306" height="195" alt="Ảnh màn hình 2025-09-24 lúc 23 23 38" src="https://github.com/user-attachments/assets/37cbf69e-7fee-4b28-8779-7fc93b313554" /><br>
+Info (Thông tin chi tiết): Hiển thị metadata đầy đủ về mỗi item nội dung bao gồm thông tin file như kích thước, định dạng, ngày tạo.<br>
+Phân tích:<br>
+- Kích thước file: size
+- Định dạng: format
+- Ngày tạo: dateAdded
+- Hàm getter cho size: getSize()<br>
+- Hàm setter cho size: setSize()<br>
+- Hàm getter cho format: getFormat()<br>
+- Hàm setter cho format: setFormat()<br>
+- Hàm getter cho dateAdded: getDateAdded()<br>
+- Hàm setter cho dateAdded: setDateAdded()<br>
+- Hàm chuẩn hoá định dạng cho kích thước file: getSizeFormat()
+
+2. Content:<br>
 <img width="306" height="195" alt="Ảnh màn hình 2025-09-24 lúc 23 31 37" src="https://github.com/user-attachments/assets/bd642043-96e2-4ff8-8762-7422b8f874e1" /><br>
 Open (Mở file): Hỗ trợ mở và hiển thị thông tin cơ bản bao gồm tiêu đề, tác giả, nội dung file dưới định dạng phổ biến như JPEG, PNG cho tranh ảnh, và file văn bản như TXT cho truyện.<br>
 Phân tích:<br>
@@ -15,18 +31,6 @@ Phân tích:<br>
 - Tác giả: author
 - Nội dung: filePath
 - Mở file và hiển thị: open()
-
-
-2. Info:<br>
-<img width="306" height="195" alt="Ảnh màn hình 2025-09-24 lúc 23 23 38" src="https://github.com/user-attachments/assets/37cbf69e-7fee-4b28-8779-7fc93b313554" /><br>
-Info (Thông tin chi tiết): Hiển thị metadata đầy đủ về mỗi item nội dung bao gồm thông tin file như kích thước, định dạng, ngày tạo, tag truyện.<br>
-Phân tích:<br>
-- Kích thước file: size
-- Định dạng: format
-- Ngày tạo: dayCreated
-- Tag truyện: tags.
-- Hiển thị: display_info()<br>
-
 
 3. Reading History:<br>
 <img width="268" height="195" alt="Ảnh màn hình 2025-11-20 lúc 01 17 40" src="https://github.com/user-attachments/assets/5e631981-6ab8-4c91-813a-157872b1c33e" /><br>

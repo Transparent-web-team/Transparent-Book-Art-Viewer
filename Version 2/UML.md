@@ -32,7 +32,7 @@ Phân tích:<br>
 - Tiêu đề: title
 - Tác giả: author
 - Nội dung: filePath
-- Thông tin chi tiết về file: info
+- Thông tin chi tiết về file: info<br>
 
 - Constructor của class Content: Content()<br>
 - Hàm getter cho contentId: getContentId()

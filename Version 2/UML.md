@@ -25,7 +25,7 @@ Phân tích:<br>
 - Hàm chuẩn hoá định dạng cho kích thước file: getSizeFormat()
 
 2. Content:<br>
-<img width="306" height="195" alt="Ảnh màn hình 2025-09-24 lúc 23 31 37" src="https://github.com/user-attachments/assets/bd642043-96e2-4ff8-8762-7422b8f874e1" /><br>
+<img width="393" height="511" alt="Screenshot 2025-11-28 141654" src="https://github.com/user-attachments/assets/1da85aa4-cd94-483a-8dbe-ac923ce2ffac" />
 Open (Mở file): Hỗ trợ mở và hiển thị thông tin cơ bản bao gồm tiêu đề, tác giả, nội dung file dưới định dạng phổ biến như JPEG, PNG cho tranh ảnh, và file văn bản như TXT cho truyện.<br>
 Phân tích:<br>
 - Mã nội dung: contentID
@@ -44,7 +44,8 @@ Phân tích:<br>
 - Hàm getter cho filePath: getFilePath()
 - Hàm setter cho filePath: setFilePath()
 - Hàm getter cho info: getInfo()
-- Hàm setter cho info: setInfo()
+- Hàm setter cho info:<img width="393" height="511" alt="Screenshot 2025-11-28 141654" src="https://github.com/user-attachments/assets/965c3a1f-4d08-4994-94f2-40dc5ab48ec9" />
+ setInfo()
 
 3. Reading History:<br>
 <img width="268" height="195" alt="Ảnh màn hình 2025-11-20 lúc 01 17 40" src="https://github.com/user-attachments/assets/5e631981-6ab8-4c91-813a-157872b1c33e" /><br>

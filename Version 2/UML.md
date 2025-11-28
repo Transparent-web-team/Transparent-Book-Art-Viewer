@@ -25,7 +25,7 @@ Phân tích:<br>
 - Hàm chuẩn hoá định dạng cho kích thước file: getSizeFormat()
 
 2. Content:<br>
-<img width="393" height="511" alt="Screenshot 2025-11-28 141654" src="https://github.com/user-attachments/assets/1da85aa4-cd94-483a-8dbe-ac923ce2ffac" />
+<img width="393" height="511" alt="Screenshot 2025-11-28 141654" src="https://github.com/user-attachments/assets/1da85aa4-cd94-483a-8dbe-ac923ce2ffac" /><br>
 Open (Mở file): Hỗ trợ mở và hiển thị thông tin cơ bản bao gồm tiêu đề, tác giả, nội dung file dưới định dạng phổ biến như JPEG, PNG cho tranh ảnh, và file văn bản như TXT cho truyện.<br>
 Phân tích:<br>
 - Mã nội dung: contentID

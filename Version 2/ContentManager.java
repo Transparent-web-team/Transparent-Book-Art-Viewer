@@ -75,17 +75,7 @@ public class ContentManager {
     public List<Content> getAllContents() {
         return new ArrayList<>(allContents);
     }
-
-    public List<Content> getFavorites() {
-        List<Content> result = new ArrayList<>();
-        for (String id : favorites) {
-            Content c = findContentById(id);
-            if (c != null) {
-                result.add(c);
-            }
-        }
-        return result;
-    }
+    
 
     public boolean isFavorite(String contentId) {
         return favorites.contains(contentId);
@@ -160,6 +150,19 @@ public class ContentManager {
         });
     }
 
+    public void sortByFavorite(List<Content> list) {
+        list.sort((c1, c2) -> {
+            boolean fav1 = isFavorite(c1.getContentId());
+            boolean fav2 = isFavorite(c2.getContentId());
+
+            // Favorite items first
+            if (fav1 && !fav2) return -1;
+            if (!fav1 && fav2) return 1;
+
+            // If both favorite or both not favorite, sort by title
+            return c1.getTitle().compareToIgnoreCase(c2.getTitle());
+        });
+    }
 
     @SuppressWarnings("unchecked")
     private void loadData() {

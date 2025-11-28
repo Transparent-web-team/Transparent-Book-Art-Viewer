@@ -15,7 +15,7 @@ Phân tích:<br>
 - Định dạng: format
 - Ngày tạo: dateAdded
 
-- Constructor của class Info: Info()
+- Constructor của class Info: Info(...)
 - Hàm getter cho size: getSize()
 - Hàm setter cho size: setSize()
 - Hàm getter cho format: getFormat()
@@ -34,7 +34,7 @@ Phân tích:<br>
 - Nội dung: filePath
 - Thông tin chi tiết về file: info<br>
 
-- Constructor của class Content: Content()
+- Constructor của class Content: Content(...)
 - Hàm getter cho contentId: getContentId()
 - Hàm setter cho contentId: setContentId()
 - Hàm getter cho author: getAuthor()
@@ -53,7 +53,7 @@ Phân tích:<br>
 - Mã nội dung: contentID
 - Tiến độ đọc: progress
 
-- Hàm constructor cho class ReadingHistory: ReadingHistory()
+- Hàm constructor cho class ReadingHistory: ReadingHistory(...)
 - Hàm getter cho contentId: getContentId()
 - Hàm setter cho contentId: setContentId()
 - Hàm getter cho progress: getProgress()
@@ -73,7 +73,7 @@ Phân tích:<br>
 - Hằng số file chứa dữ liệu tiến độ: FILE_PROGRESS
 - Hằng số file chứa dữ liệu ID: FILE_ID
 
-- Khởi tạo danh sách và load dữ liệu: ContentManager()
+- Khởi tạo danh sách và load dữ liệu: ContentManager(...)
 - Thêm nội dung mới: addContent()
 - Tìm nội dung theo ID: findContentById()
 - Xóa nội dung: removeContent()

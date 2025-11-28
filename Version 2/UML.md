@@ -78,7 +78,6 @@ Phân tích:<br>
 - Tìm nội dung theo ID: findContentById()
 - Xóa nội dung: removeContent()
 - Lấy danh sách toàn bộ nội dung: getAllContents()
-- Lấy danh sách yêu thích: getFavorites()
 - Kiểm tra nội dung có trạng thái yêu thích không: isFavorite()
 - Bật/tắt trạng thái yêu thích: toggleFavorite()
 - Cập nhật tiến độ đọc: updateProgress()

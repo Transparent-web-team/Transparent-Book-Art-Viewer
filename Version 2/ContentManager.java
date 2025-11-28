@@ -12,12 +12,71 @@ public class ContentManager {
     private static final String FILE_FAVORITES = "favorites.dat";
     private static final String FILE_PROGRESS = "progress.dat";
     private static final String FILE_ID = "nextid.dat";
+    private static final String USER_GUIDE_FLAG = "user_guide_loaded.dat";
 
     public ContentManager() {
         allContents = new ArrayList<>();
         favorites = new HashSet<>();
         readingProgress = new HashMap<>();
         loadData();
+        loadUserGuideIfNeeded();
+    }
+
+    private void loadUserGuideIfNeeded() {
+        // Check if User Guide already loaded
+        File flagFile = new File(USER_GUIDE_FLAG);
+        if (flagFile.exists()) {
+            return; 
+        }
+
+        try {
+            // Extract user-guide.pdf from resources to temp location
+            InputStream is = getClass().getResourceAsStream("/User_Guide.pdf");
+            if (is == null) {
+                System.out.println("User Guide not found in resources");
+                return;
+            }
+
+            // Create app data folder for user guide
+            File appDataDir = new File(System.getProperty("user.home"), ".transparent");
+            if (!appDataDir.exists()) {
+                appDataDir.mkdirs();
+            }
+
+            File userGuidePdf = new File(appDataDir, "User-Guide-Transparent.pdf");
+
+            // Copy from resources to file system
+            try (FileOutputStream fos = new FileOutputStream(userGuidePdf)) {
+                byte[] buffer = new byte[4096];
+                int bytesRead;
+                while ((bytesRead = is.read(buffer)) != -1) {
+                    fos.write(buffer, 0, bytesRead);
+                }
+            }
+            is.close();
+
+            String title = "User Guide - Transparent";
+            String author = "Transparent Team";
+            String filePath = userGuidePdf.getAbsolutePath();
+
+            long size = userGuidePdf.length();
+            String format = "PDF";
+            LocalDate dateAdded = LocalDate.now();
+            Info info = new Info(size, format, dateAdded);
+            String newId = String.format("C%04d", nextId++);
+
+            Content userGuide = new Content(newId, author, title, filePath, info);
+            allContents.add(userGuide);
+            
+            saveData();
+
+            // Create flag file so we don't load it again
+            flagFile.createNewFile();
+
+        } catch (Exception e) {
+            System.err.println("Failed to load User Guide: " + e.getMessage());
+            e.printStackTrace();
+        }
     }
 
     public String addContent(String title, String author, String filePath) throws Exception {
@@ -76,7 +135,6 @@ public class ContentManager {
         return new ArrayList<>(allContents);
     }
     
-
     public boolean isFavorite(String contentId) {
         return favorites.contains(contentId);
     }
@@ -101,8 +159,7 @@ public class ContentManager {
     public ReadingHistory getReadingHistory(String contentId) {
         return readingProgress.get(contentId);
     }
-
-    // SEARCH (title OR author)
+    
     public List<Content> search(String keyword) {
         List<Content> result = new ArrayList<>();
         if (keyword == null) keyword = "";
@@ -126,7 +183,6 @@ public class ContentManager {
 
     public void sortByTitle(List<Content> contents) {
         if (contents == null) return;
-        // sort in-place, case-insensitive
         Collections.sort(contents, new Comparator<Content>() {
             @Override
             public int compare(Content c1, Content c2) {
@@ -139,7 +195,6 @@ public class ContentManager {
 
     public void sortByAuthor(List<Content> contents) {
         if (contents == null) return;
-        // sort in-place, case-insensitive
         Collections.sort(contents, new Comparator<Content>() {
             @Override
             public int compare(Content c1, Content c2) {

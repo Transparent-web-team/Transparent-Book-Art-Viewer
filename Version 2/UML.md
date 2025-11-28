@@ -44,8 +44,7 @@ Phân tích:<br>
 - Hàm getter cho filePath: getFilePath()
 - Hàm setter cho filePath: setFilePath()
 - Hàm getter cho info: getInfo()
-- Hàm setter cho info:<img width="393" height="511" alt="Screenshot 2025-11-28 141654" src="https://github.com/user-attachments/assets/965c3a1f-4d08-4994-94f2-40dc5ab48ec9" />
- setInfo()
+- Hàm setter cho info: setInfo()
 
 3. Reading History:<br>
 <img width="268" height="195" alt="Ảnh màn hình 2025-11-20 lúc 01 17 40" src="https://github.com/user-attachments/assets/5e631981-6ab8-4c91-813a-157872b1c33e" /><br>

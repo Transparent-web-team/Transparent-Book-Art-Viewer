@@ -25,7 +25,7 @@ Phân tích:<br>
 - Hàm chuẩn hoá định dạng cho kích thước file: getSizeFormat()
 
 2. Content:<br>
-<img width="393" height="511" alt="Screenshot 2025-11-28 141654" src="https://github.com/user-attachments/assets/1da85aa4-cd94-483a-8dbe-ac923ce2ffac" /><br>
+<img width="394" height="510" alt="Screenshot 2025-11-28 230821" src="https://github.com/user-attachments/assets/0402579c-2a83-483a-a579-31e1eaae07d9" /><br>
 Open (Mở file): Hỗ trợ mở và hiển thị thông tin cơ bản bao gồm tiêu đề, tác giả, nội dung file dưới định dạng phổ biến như JPEG, PNG cho tranh ảnh, và file văn bản như TXT cho truyện.<br>
 Phân tích:<br>
 - Mã nội dung: contentID
@@ -47,7 +47,7 @@ Phân tích:<br>
 - Hàm setter cho info: setInfo()
 
 3. Reading History:<br>
-<img width="268" height="195" alt="Ảnh màn hình 2025-11-20 lúc 01 17 40" src="https://github.com/user-attachments/assets/5e631981-6ab8-4c91-813a-157872b1c33e" /><br>
+<img width="393" height="268" alt="Screenshot 2025-11-28 230623" src="https://github.com/user-attachments/assets/39239fec-ad0f-456d-8898-80248b4e0128" /><br>
 Lịch sử đọc (Reading History): Theo dõi và ghi lại hoạt động của người dùng với nội dung, thời lượng xem/đọc, và tiến độ đọc hiện tại đối với truyện dài. Tính năng này giúp người dùng dễ dàng tiếp tục từ vị trí đã dừng và xem lại những nội dung đã tương tác.<br>
 Phân tích:<br>
 - Mã nội dung: contentID

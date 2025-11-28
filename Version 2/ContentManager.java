@@ -108,6 +108,9 @@ public class ContentManager {
         history.setProgress(progress);
         saveData();
     }
+    public ReadingHistory getReadingHistory(String contentId) {
+        return readingProgress.get(contentId);
+    }
 
     // SEARCH (title OR author)
     public List<Content> search(String keyword) {

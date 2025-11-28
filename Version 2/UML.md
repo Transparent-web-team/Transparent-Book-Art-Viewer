@@ -8,7 +8,7 @@ A Java-based application for Window users to view book & art in a beautiful way.
 **Class Diagram:<br>**
 
 1. Info:<br>
-<img width="306" height="195" alt="Ảnh màn hình 2025-09-24 lúc 23 23 38" src="https://github.com/user-attachments/assets/37cbf69e-7fee-4b28-8779-7fc93b313554" /><br>
+<img width="395" height="389" alt="image" src="https://github.com/user-attachments/assets/0359c9e5-fa8e-49c5-9e9e-9b0a4a7d8cc2" /><br>
 Info (Thông tin chi tiết): Hiển thị metadata đầy đủ về mỗi item nội dung bao gồm thông tin file như kích thước, định dạng, ngày tạo.<br>
 Phân tích:<br>
 - Kích thước file: size

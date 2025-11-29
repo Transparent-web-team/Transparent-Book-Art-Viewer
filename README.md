@@ -38,7 +38,7 @@
 ## 🎯 About
 
 **Transparent PDF Reader** is a lightweight yet powerful PDF management application designed with a modern, clean interface. Built with Java Swing and Apache PDFBox, it provides a seamless experience for organizing, reading, and tracking your PDF documents.
-Link Report: [https://docs.google.com/document/d/1J89AMuss89hWR_xrs7uIY6RLeyfto8eTaTbCEq7x2n4/edit?usp=sharing](url)
+- Link Report: <a href="https://docs.google.com/document/d/1J89AMuss89hWR_xrs7uIY6RLeyfto8eTaTbCEq7x2n4/edit?usp=sharing" target="_blank">Xem Tài liệu chi tiết</a>
 
 ### Why Transparent?
 

@@ -35,7 +35,7 @@
 
 ---
 
-## 🎯 About
+## About
 
 **Transparent PDF Reader** is a lightweight yet powerful PDF management application designed with a modern, clean interface. Built with Java Swing and Apache PDFBox, it provides a seamless experience for organizing, reading, and tracking your PDF documents.
 - Link Report: <a href="https://docs.google.com/document/d/1J89AMuss89hWR_xrs7uIY6RLeyfto8eTaTbCEq7x2n4/edit?usp=sharing" target="_blank">Xem Tài liệu chi tiết</a>
@@ -50,7 +50,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 ### 📚 Library Management
 - **Import PDFs** with automatic metadata extraction
@@ -75,7 +75,7 @@
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Main Library View
 
@@ -87,7 +87,7 @@
 
 ---
 
-## 💻 Requirements
+## Requirements
 
 ### System Requirements
 - **Operating System**: Windows 7/8/10/11
@@ -101,7 +101,7 @@
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ###  Run JAR File
 
@@ -121,7 +121,7 @@
 
 ---
 
-## 📘 Usage Guide
+## Usage Guide
 
 ### Adding PDFs
 
@@ -182,7 +182,7 @@
 
 ---
 
-## ⌨️ Keyboard Shortcuts
+## Keyboard Shortcuts
 
 ### In PDF Viewer
 
@@ -202,7 +202,7 @@
 
 ---
 
-## 💾 Data Storage
+## Data Storage
 
 The application stores data in the same directory as the JAR file:
 
@@ -233,7 +233,7 @@ cp backup/*.dat .
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### PDF Won't Open
 **Problem:** "File not found" error
@@ -282,7 +282,7 @@ java -version  # Should be 8 or higher
 
 ---
 
-## 🔍 Technical Details
+## Technical Details
 
 ### Architecture
 ```
@@ -345,7 +345,7 @@ java -version  # Should be 8 or higher
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Here's how you can help:
 
@@ -379,7 +379,7 @@ We welcome contributions! Here's how you can help:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -394,7 +394,7 @@ of this software and associated documentation files...
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Apache PDFBox** - PDF rendering engine
 - **Oracle Java** - Application platform
@@ -402,7 +402,7 @@ of this software and associated documentation files...
 
 ---
 
-## 📧 Contact & Support
+## Contact & Support
 
 - **Issues**: [GitHub Issues](https://github.com/Transparent-web-team/Transparent-Book-Art-Viewer/issues)
 

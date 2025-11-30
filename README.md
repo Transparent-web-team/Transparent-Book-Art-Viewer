@@ -4,7 +4,7 @@
 
 ![App Icon](images/app-icon.png)
 
-**A modern, elegant PDF management and reading application for Windows**
+**A modern, elegant PDF management and reading application for Windows (and macOS)**
 
 [![Java Version](https://img.shields.io/badge/Java-8+-blue.svg)](https://www.oracle.com/java/technologies/javase-downloads.html)
 [![Apache PDFBox](https://img.shields.io/badge/PDFBox-2.0+-orange.svg)](https://pdfbox.apache.org/)
@@ -90,7 +90,7 @@
 ## Requirements
 
 ### System Requirements
-- **Operating System**: Windows 7/8/10/11
+- **Operating System**: Windows 7/8/10/11 or macOS
 - **Java Runtime**: JRE 8 or higher
 - **Memory**: Minimum 512 MB RAM (1 GB recommended)
 - **Storage**: 50 MB for application + space for PDF files
@@ -103,7 +103,7 @@
 
 ## Installation
 
-###  Run JAR File
+###  For Window and macOS
 
 1. **Install Java** if not already installed:
    ```bash
@@ -113,8 +113,8 @@
    Download from: [Oracle Java Downloads](https://www.oracle.com/java/technologies/javase-downloads.html)
 
 2. **Download** the latest release:
-   - Download jar file from [Releases](https://github.com/Transparent-web-team/Transparent-Book-Art-Viewer/releases)
-
+   - Download the zip file named "TransparentPDFReader.zip" from [Releases](https://github.com/Transparent-web-team/Transparent-Book-Art-Viewer/releases)
+   - Unzip. 
 3. **Run** the application:
    - Click the jar file to open the application.
 

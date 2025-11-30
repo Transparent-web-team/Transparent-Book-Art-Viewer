@@ -60,7 +60,7 @@ Phân tích:<br>
 - Hàm setter cho progress: setProgress()
 
 4. ContentManager:<br>
-<img width="530" height="656" alt="Screenshot 2025-11-30 150636" src="https://github.com/user-attachments/assets/ad1eb56f-20d3-48cf-877e-eb9be499a28f" /><br>
+<img width="530" height="705" alt="Screenshot 2025-11-30 220517" src="https://github.com/user-attachments/assets/c8957b5e-666c-407b-8311-8639a3bd4854" /><br>
 
 Phân tích:<br>
 - Danh sách toàn bộ nội dung: allContents

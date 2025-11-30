@@ -72,6 +72,7 @@ Phân tích:<br>
 - Hằng số file chứa dữ liệu yêu thích: FILE_FAVORITES
 - Hằng số file chứa dữ liệu tiến độ: FILE_PROGRESS
 - Hằng số file chứa dữ liệu ID: FILE_ID
+- Hằng số file cờ User Guide: USER_GUIDE_FLAG
 
 - Khởi tạo danh sách và load dữ liệu: ContentManager(...)
 - Thêm nội dung mới: addContent()
@@ -81,8 +82,11 @@ Phân tích:<br>
 - Kiểm tra nội dung có trạng thái yêu thích không: isFavorite()
 - Bật/tắt trạng thái yêu thích: toggleFavorite()
 - Cập nhật tiến độ đọc: updateProgress()
+- Lấy tiến độ đọc của nội dung: getReadingHistory()
 - Tìm kiếm theo tiêu đề hoặc tác giả: search()
 - Sắp xếp theo tiêu đề: sortByTitle()
 - Sắp xếp theo tác giả: sortByAuthor()
+- Sắp xếp ưu tiên theo yêu thích: sortByFavorite()
 - Load dữ liệu từ file: loadData()
 - Lưu dữ liệu ra file: saveData()
+- Kiểm tra và load tài liệu hướng dẫn (private): loadUserGuideIfNeeded()

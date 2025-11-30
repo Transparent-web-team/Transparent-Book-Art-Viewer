@@ -26,7 +26,7 @@ Phân tích:<br>
 
 2. Content:<br>
 <img width="394" height="510" alt="Screenshot 2025-11-28 230821" src="https://github.com/user-attachments/assets/0402579c-2a83-483a-a579-31e1eaae07d9" /><br>
-Open (Mở file): Hỗ trợ mở và hiển thị thông tin cơ bản bao gồm tiêu đề, tác giả, nội dung file dưới định dạng phổ biến như JPEG, PNG cho tranh ảnh, và file văn bản như TXT cho truyện.<br>
+Open (Mở file): Hỗ trợ mở các file PDF. Khi mở một nội dung, ứng dụng hiển thị toàn bộ nội dung PDF với khả năng đọc trực tiếp.<br>
 Phân tích:<br>
 - Mã nội dung: contentID
 - Tiêu đề: title
